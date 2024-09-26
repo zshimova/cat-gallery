@@ -1,3 +1,13 @@
+// Импорт стилей
+import './style.scss';  // Импортируем SCSS файл
+
+
+
+// Переменные
+const btn = document.getElementById('btn');
+
+
+
 // Получение изображений
 let data = fetch("https://dog.ceo/api/breeds/image/random/20")
     .then(res => res.json())
@@ -8,3 +18,5 @@ let data = fetch("https://dog.ceo/api/breeds/image/random/20")
     })
     .catch(error => console.log("Ошибка запроса:", error));
 // console.log(data);
+
+
