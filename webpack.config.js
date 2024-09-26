@@ -6,6 +6,12 @@ module.exports = {
     filename: 'bundle.js',  // Выходной файл
     path: path.resolve(__dirname, 'dist'),  // Папка для выходного файла
   },
+  devServer: {
+    static: {
+      directory: path.join(__dirname, 'dist'), // Каталог для статики
+    },
+    open: true, // Автоматически открывать браузер
+  },
   mode: 'development',  // Режим разработки
   module: {
     rules: [
