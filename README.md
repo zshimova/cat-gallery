@@ -9,11 +9,11 @@ Pet-project для отработки навыков работыы с API и а
 
 ```bash
 1. **Клонируйте репозиторий**
-git clone https://github.com/zshimova/cat-gallery.git
+git clone https://github.com/zshimova/dog-gallery.git
 
 
 2. **Перейдите в директорию проекта**
-cd cat-gallery
+cd dog-gallery
 
 
 3. **Установите зависимости**
