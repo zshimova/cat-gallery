@@ -40,3 +40,24 @@ async function loadImg() {
         imgContainer.appendChild(img);
     });
 }
+
+// Функции управления лоадером
+function showLoader() {
+    document.getElementById("loader").style.display = "flex"; // Лоадер виден
+}
+function hideLoader() {
+    document.getElementById("loader").style.display = "none"; // Лоадер скрыт
+}
+
+// Обработчик события для кнопки
+btn.addEventListener("click", async () => {
+    try {
+        showLoader(); // Показать лоадер
+        const result = await getData(); // Выполнить асинхронную функцию
+        console.log(result); // Обработать результат
+    } catch (err) {
+        console.error("Ошибка:", err); // Логирование ошибки
+    } finally {
+        hideLoader(); // Скрыть лоадер независимо от результата
+    }
+});
