@@ -1,5 +1,5 @@
 {
-  "name": "catgallery",
+  "name": "dog-gallery",
   "version": "1.0.0",
   "description": "pet-project to learn asynchrony",
   "main": "src/index.js",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zshimova/cat-gallery.git"
+    "url": "git+https://github.com/zshimova/dog-gallery.git"
   },
   "author": "Zlata Shimova",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/zshimova/cat-gallery/issues"
+    "url": "https://github.com/zshimova/dog-gallery/issues"
   },
-  "homepage": "https://github.com/zshimova/cat-gallery#readme",
+  "homepage": "https://github.com/zshimova/dog-gallery#readme",
   "devDependencies": {
     "css-loader": "^7.1.2",
     "html-webpack-plugin": "^5.6.0",
